@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial';
+}
+
+.container {
+    position: relative;
+    width: 90%;
+    height: 1024px;
+    max-width: 1680px;
+    min-height: 320px;
+    margin: 20px auto;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.element {
+    color: rgb(15, 1, 8);
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.element1 {
+    background-color: rgb(32, 63, 202);
+    background-image: url("./imgpic/58925.width-2000.jpg")
+}
+
+.element2 {
+    background-color: rgb(212, 29, 53);
+    background-image: url("./imgpic/7567110@2x.jpg");
+}
+
+.element3 {
+    background-color: rgb(17, 168, 17);
+    background-image: url("./imgpic/images.jpg");
+}
+
+.element4 {
+    background-color: rgb(218, 221, 20);
+    background-image: url("./imgpic/picasso-doramaar.webp");
+}
+
+.element5 {
+    background-color: rgb(199, 163, 43);
+    background-image: url("./imgpic/picasso-fillette-au-bateau-maya.jpg");
+}
+
+.element6 {
+    background-color: rgb(204, 52, 171);
+    background-image: url("./imgpic/xJGqSLMfXLFezgXZYXn67IxnuubQnwDVHHCNC62SNBgsm2smIXRuxH1mA7MoQ94KYf8xnHX9KUGx0Ieyc5nf3kbDKO2u5IpiKyUhAEiQN95aBxPPlN0cypRjjNzPV5V1.jpg");
+}
+
+p1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p:hover {
+    background-color: orange;
+}
